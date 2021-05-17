@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:wght@700&display=swap");
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*General Styling */
+body {
+  background-color: #282828;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35.88516746411483vh;
+  margin-bottom: 35.88516746411483vh;
+}
+body h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 65px;
+}
+body h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+button {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #d02035;
+  color: white;
+  border: 0;
+  width: 100%;
+  text-align: center;
+  padding: 13px;
+  width: 100%;
+  border-radius: 5px;
+}
+select:required:invalid {
+  color: #757575;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+}
+select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input,
+select,
+option {
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  width: 100%;
+  height: 55px;
+  padding: 15px;
+  background-color: #e5e5e5;
+}
+
+/*top half of form*/
+
+.title__top h1 {
+  text-transform: uppercase;
+}
+
+.title__bar {
+  background-color: #d02035;
+  width: 300px;
+  height: 11px;
+  margin: 40px 0;
+}
+
+.title__bottom {
+  margin: 40px 0;
+}
+.form {
+  position: relative;
+}
+
+.form__top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__input {
+  width: 100%;
+  margin-right: 5px;
+}
+.form__dropdown {
+  width: 100%;
+  margin-left: 5px;
+  position: relative;
+}
+
+.form__button {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.error {
+  position: absolute;
+  font-size: 12px;
+  top: -20px;
+  left: 285px;
+  color: #e5e5e5;
+}
+.hidden {
+  display: none;
+}
+
+/*Thank you message*/
+.thankYou__bottom {
+  margin-top: 25px;
+}
+
+/*Media Queries */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .title__bar {
+    margin: 0 auto;
+  }
+}

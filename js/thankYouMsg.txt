@@ -1,0 +1,12 @@
+    <div class="thankYou">
+        <div class="thankYou__top">
+            <h3>Thanks for your interest!</h3>
+        </div>
+        <div class="thankYou__bottom">
+            <p>We will review your application
+            and contact you for additional information should 
+            your background and experience meet the requirements 
+            of one of our openings.
+            </p>
+        </div>
+    </div>
